@@ -49,6 +49,13 @@ main .bottom-img {
           transform: translate(30%, 70%);
 }
 
+@media (max-width: 620px) {
+  main .bottom-img {
+    -webkit-transform: translate(40%, 30%);
+            transform: translate(40%, 30%);
+  }
+}
+
 .card {
   position: absolute;
   top: 50%;
@@ -95,6 +102,8 @@ main .bottom-img {
   font-size: 15px;
   color: #6a6f81;
   margin: 5px 0;
+  padding: 5px;
+  letter-spacing: 1.5px;
 }
 
 .card__image {
@@ -104,6 +113,7 @@ main .bottom-img {
 
 .card .img-01 {
   border-radius: 12px 12px 0 0;
+  width: 100%;
 }
 
 .card .img-rounded {

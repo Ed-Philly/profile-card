@@ -43,6 +43,10 @@ main {
   .bottom-img {
     display: inline-block;
     transform: translate(30%, 70%);
+
+    @media (max-width: 620px) {
+      transform: translate(40%, 30%);
+    }
   }
 }
 
@@ -78,6 +82,8 @@ main {
       font-size: 15px;
       color: $grayish-blue;
       margin: 5px 0;
+      padding: 5px;
+      letter-spacing: 1.5px;
     }
   }
 
@@ -87,6 +93,7 @@ main {
   }
   .img-01 {
     border-radius: 12px 12px 0 0;
+    width: 100%;
   }
   .img-rounded {
     position: absolute;
