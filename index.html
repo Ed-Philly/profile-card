@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <div class="container top">
+        <img
+          class="top-img"
+          src="./images/bg-pattern-top.svg"
+          alt=""
+          style="width: 100%; height: auto"
+        />
+      </div>
+
+      <section class="card">
+        <div class="card__image">
+          <img
+            class="img-01"
+            src="./images/bg-pattern-card.svg"
+            alt="bubbles"
+          />
+          <div class="img">
+            <img class="img-rounded" src="./images/image-victor.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card__name">
+          Victor Crest <span class="card__age">26</span>
+        </div>
+        <div class="card__location">London</div>
+        <div class="card__stats">
+          <section class="stats-content">
+            <div class="score">80K</div>
+            <p>Followers</p>
+          </section>
+          <section class="stats-content">
+            <div class="score">803k</div>
+            <p>Likes</p>
+          </section>
+          <section class="stats-content">
+            <div class="score">1.4k</div>
+            <p>Photos</p>
+          </section>
+        </div>
+      </section>
+
+      <div class="container bottom">
+        <img
+          class="bottom-img"
+          src="./images/bg-pattern-bottom.svg"
+          alt="background"
+          style="width: 100%; height: auto"
+        />
+      </div>
+    </main>
+  </body>
+</html>
